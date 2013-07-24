@@ -1,0 +1,26 @@
+{
+  "name": "css-deps",
+  "version": "0.0.0",
+  "description": "Walks CSS and LESS files and outputs paths to any url() dependencies found.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RandomEtc/css-deps.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Tom Carden",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "a4df953d408794f6f0bd1be16809dcc7b3a2f636",
+  "dependencies": {
+    "rework": "~0.17.2",
+    "less": "~1.4.2"
+  },
+  "bin": {
+    "cssdeps": "bin/cssdeps.js"
+  }
+}

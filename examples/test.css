@@ -1,0 +1,7 @@
+#test {
+  background: url('foo.png');
+}
+
+.other {
+  background-image: url('bar.gif');
+}
